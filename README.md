@@ -53,7 +53,7 @@ For questions about collaboration or access, please contact the corresponding au
 
 If you refer to ReproPerturb before formal publication, please cite the associated manuscript as:
 
-> ReproPerturb: a context-dependent virtual cell framework for mapping combinatorial signalling perturbations during somatic cell reprogramming. Manuscript submitted.
+> A context-dependent virtual cell framework maps reprogramming plasticity and captures a self-renewing OCT4+ human hypoblast stem cell state. Manuscript submitted.
 
 A complete citation, DOI and publication link will be added when available.
 
