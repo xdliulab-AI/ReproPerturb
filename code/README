@@ -1,1 +1,21 @@
+# Code
 
+This folder contains analysis scripts and supporting code associated with the data analysis described in the manuscript. The current release is intended to provide an organized entry point for code used in downstream processing, visualization, quality assessment and figure-related analyses.
+
+At this stage, the repository does **not** include the full ReproPerturb model implementation, training pipeline, model checkpoints or internal large-scale screening scripts. ReproPerturb-related code will be updated after the manuscript is accepted, in accordance with the final software release plan and any applicable data-use or intellectual-property requirements.
+
+## Current scope
+
+| Content type | Status | Notes |
+|---|---|---|
+| Data analysis scripts | Included or to be organized in this folder | Scripts related to processing, summary analysis, visualization and figure generation. |
+| Utility scripts | Included where relevant | Helper functions used by the analysis workflow may be placed here. |
+| ReproPerturb model code | Not included in the current release | The model architecture, training workflow and inference code will be updated after manuscript acceptance. |
+| Model checkpoints | Not included in the current release | Checkpoint availability will follow the final release policy. |
+| Large-scale screening scripts | Not included in the current release | ReproPerturb screening code will be provided later where appropriate. |
+
+## Notes for users
+
+The code currently available in this directory should be interpreted as analysis-oriented material rather than a complete software package. File organization and documentation may continue to evolve as the manuscript proceeds through review and publication.
+
+For ReproPerturb-specific implementation details, please refer to the manuscript methods section. Additional code, usage examples and release notes will be added to this folder after acceptance.
