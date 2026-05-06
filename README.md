@@ -26,28 +26,28 @@ ReproPerturb was used to map perturbation-responsive reprogramming trajectories 
 
 The model was also evaluated using independent lineage-directed perturbation conditions and benchmarked against alternative computational perturbation modelling approaches. These analyses support ReproPerturb as a practical framework for hypothesis generation in stem cell engineering and early developmental biology.
 
-## Repository status
+## Repository contents
 
-This repository is currently maintained as a **project information and release-tracking page**. It contains a concise description of the ReproPerturb framework and will be updated as manuscript, data and software release decisions are finalized.
+This repository contains the organized scripts, modules, and analytical pipelines used in our study. The codebase is structured to cover the entire computational workflow, from initial data processing to complex network analysis and model implementation:
 
-| Component | Current status |
+| Module / Directory | Description |
 |---|---|
-| Project overview | Available in this README. |
-| Manuscript link | To be added upon publication or public preprint release. |
-| Processed metadata | Planned for release where compatible with manuscript and data-use policies. |
-| Example outputs | Planned for staged release. |
-| Source code | Not publicly released in this repository at the present stage. |
-| Model checkpoints | Not publicly released in this repository at the present stage. |
+| **Single-cell RNA sequencing data preprocessing** | Foundational pipelines for QC, filtering, and initial processing of raw single-cell sequencing data. |
+| **Dimensionality reduction clustering and dataset integration** | Scripts for UMAP/t-SNE embedding, graph-based clustering, and batch-effect correction across multiple datasets. |
+| **scRNA-seq-analysis-of-the-reprogramming-screening-Experiment** | Dedicated analysis workflow specific to the combinatorial reprogramming screening experiments. |
+| **Gene expression analysis and visualization** | Tools for differential gene expression evaluation, marker identification, and generation of manuscript-quality figures. |
+| **Principal Component and Correlation Analysis** | Statistical modules for evaluating global transcriptional shifts and feature-level correlations. |
+| **Pseudotime Analysis and Differentiation Potential Estimation** | Advanced trajectory inference tools to map developmental progression and cell fate potential. |
+| **Regulatory network analysis with SCENIC** | Inference and analysis of transcription factor regulons and gene regulatory networks. |
+| **model** | Relevant information regarding the ReproPerturb approach. |
 
 ## Intended use
 
-ReproPerturb is designed for research use in computational biology, stem cell engineering and perturbation-response modelling. The public materials in this repository are intended to help readers understand the framework and follow future releases. They are not intended to provide a deployable software package or a complete reproduction workflow at this stage.
+ReproPerturb is designed for research use in computational biology, stem cell engineering and perturbation-response modelling. The materials in this repository are provided to help readers understand the analytical framework, evaluate the data processing workflows, and explore the biological applications described in our study.
 
 ## Availability
 
-The ReproPerturb implementation and associated model assets are under active organization for controlled and staged dissemination. Additional documentation, release notes and data-access information will be provided following manuscript publication or other public disclosure of the study.
-
-For questions about collaboration or access, please contact the corresponding authors listed in the manuscript.
+This repository provides the computational pipelines and scripts corresponding to the findings presented in our study. For specific questions regarding the analytical workflows, codebase components, collaboration inquiries, or access to associated materials, please contact the corresponding authors listed in the manuscript.
 
 ## Citation
 
